@@ -81,7 +81,7 @@ Oh snap! *face-palm*! In case you didn't notice we can only use the above method
 
 This is how we do it:
 
-```
+```javascript
 import React from 'react'
 import Gist from 'super-react-gist'
 
@@ -104,7 +104,7 @@ class MyComponent extends React.Component {
 ### Render the whole Gist
 Of course, we can also embed the whole Gist repository just by copying the Gist URL.
 
-```
+```javascript
 import React from 'react'
 import Gist from 'super-react-gist'
 
