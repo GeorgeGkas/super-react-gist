@@ -15,6 +15,7 @@ Simple and flexible component that allows you to embed [GitHub Gists](https://gi
 - [Quick Start](#quick-start)
 - [Usage](#usage)
 - [Examples](#examples)
+- [Browser Support](#browser-support)
 - [Bugs and feature requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Creator](#creator)
@@ -131,6 +132,17 @@ $ npm install
 $ npm run build
 $ npm start
 ```
+
+## Browser Support
+**super-react-gist** comes as UMD module. This means you are able to use  **super-react-gist** component in your browser!
+
+To get started add the following script tag in your html file:
+
+```html
+<script src="https://unpkg.com/super-react-gist/umd/super-react-gist.min.js"></script>
+```
+
+Then you are able to access **super-react-gist** component using the `Gist` name, which is the global variable the UMD build has exported. [See this Pen for a demonstration](https://codepen.io/georgegkas/pen/zpzMzz).
 
 ## Bugs and feature requests
 Have a bug or a feature request? [Please open a new issue](https://github.com/georgegkas/super-react-gist/issues).

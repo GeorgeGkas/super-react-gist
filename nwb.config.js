@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     cjs: true,
     esModules: true,
-    umd: 'ReactGistSimple',
+    umd: 'Gist',
     externals: {
         react: 'React'
       }
