@@ -5,7 +5,7 @@ import Gist from '../../src'
 
 const Demo = () => (
   <div>
-    <h1>super-react-gist</h1>
+    <h1><a href="https://github.com/GeorgeGkas/super-react-gist">super-react-gist</a></h1>
     <p>Simple and flexible component that allows you to embed <a href='https://gist.github.com/'>GitHub Gists</a> in <a href='https://reactjs.org/'>React</a> projects.</p>
     <p>This demo illustrate a basic usage of <strong>super-react-app</strong> component.</p>
     <h2>Render one file</h2>
