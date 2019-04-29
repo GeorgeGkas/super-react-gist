@@ -1,6 +1,6 @@
 {
   "name": "super-react-gist",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple and flexible component that allows you to embed GitHub Gists in React projects.",
   "main": "lib/index.js",
   "module": "es/index.js",
