@@ -3,9 +3,11 @@ module.exports = {
   npm: {
     cjs: true,
     esModules: true,
-    umd: 'Gist',
-    externals: {
+    umd: {
+      global: 'Gist',
+      externals: {
         react: 'React'
       }
+    }
   }
 }

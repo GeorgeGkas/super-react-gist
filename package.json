@@ -48,7 +48,7 @@
     "react-dom": "^16.3.2"
   },
   "devDependencies": {
-    "nwb": "0.20.x"
+    "nwb": "^0.23.0"
   },
   "peerDependencies": {
     "react": "0.14.x || ^15.0.0-rc || ^16.0.0-rc"
