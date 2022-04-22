@@ -1,6 +1,6 @@
 {
   "name": "super-react-gist",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Simple and flexible component that allows you to embed GitHub Gists in React projects.",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -37,20 +37,17 @@
   "scripts": {
     "build": "nwb build-react-component",
     "clean": "nwb clean-module && nwb clean-demo",
-    "start": "nwb serve-react-demo",
-    "test": "nwb test-react",
-    "test:coverage": "nwb test-react --coverage",
-    "test:watch": "nwb test-react --server"
+    "start": "nwb serve-react-demo"
   },
   "dependencies": {
-    "prop-types": "^15.6.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "dompurify": "^2.3.6",
+    "react": ">=16.14.0",
+    "react-dom": ">=16.14.0"
   },
   "devDependencies": {
-    "nwb": "^0.23.0"
+    "nwb": "^0.25.0"
   },
   "peerDependencies": {
-    "react": "0.14.x || ^15.0.0-rc || ^16.0.0-rc"
+    "react": ">=16.14.0"
   }
 }
