@@ -1,5 +1,6 @@
 import React from 'react'
-import { sanitize } from 'dompurify'
+import dompurify from 'dompurify';
+const sanitize = dompurify.sanitize
 
 const Gist = ({
   url,
