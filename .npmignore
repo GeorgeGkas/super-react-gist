@@ -3,3 +3,7 @@
 /node_modules
 npm-debug.log*
 .editorconfig
+src
+demo
+nwb.config.js
+.gitattributes
